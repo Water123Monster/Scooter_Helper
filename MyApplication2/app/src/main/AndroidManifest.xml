@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="APP程設期末專題第4組 - 機不可失"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity
+            android:name=".車庫管理"
+            android:label="車庫管理" />
+        <activity
+            android:name=".油耗"
+            android:label="油耗計算" />
+        <activity
+            android:name=".保養"
+            android:label="保養管理" />
+        <activity
+            android:name=".車種資料"
+            android:label="機車資料" />
+        <activity
+            android:name=".新增愛車"
+            android:label="新增愛車" />
+        <activity
+            android:name=".新增保養紀錄"
+            android:label="新增保養紀錄" />
+        <activity
+            android:name=".新增油耗紀錄"
+            android:label="新增油耗紀錄" />
+        <activity
+            android:name=".查詢愛車資料"
+            android:label="查詢愛車資料" />
+        <activity
+            android:name=".查詢保養紀錄"
+            android:label="查詢保養紀錄" />
+        <activity
+            android:name=".查詢油耗紀錄"
+            android:label="查詢油耗紀錄" />
+        <activity
+            android:name=".查詢車種資料"
+            android:label="查詢車種資料" />
+        <activity
+            android:name=".更改愛車資料"
+            android:label="更改愛車資料" />
+        <activity
+            android:name=".建議保養里程表"
+            android:label="建議保養里程表" />
+    </application>
+
+</manifest>
